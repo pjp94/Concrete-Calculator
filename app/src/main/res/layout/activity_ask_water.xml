@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dank.memes.concreteaggregator.AskWaterActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/select_percent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/ask_water"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/percentage_water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/enter_percentage"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/select_material_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/select_material"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"/>
+
+    <EditText
+        android:id="@+id/material_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="25dp"
+        android:hint="@string/material_amount"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/water_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/calculate_amounts"
+        android:textSize="26sp"
+        android:enabled="false"/>
+
+</LinearLayout>

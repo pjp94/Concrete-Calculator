@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dank.memes.concreteaggregator.ChooseConcreteActivity">
+
+    <TextView
+        android:id="@+id/select_concrete_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/select_concrete"
+        android:textSize="26sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/volumetric_ratio_concrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volumetric_ratio"
+        android:textSize="13sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_volumetric_ratio_concrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:1.5:1.5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t303"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:1.5:2  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t270"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:1.5:2.5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t245"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:1.5:3  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t230"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2:2    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t217"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2:2.5  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t195"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2:3    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t165"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2:3.5  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t164"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2:4    \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t140"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2.5:2.5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t156"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2.5:3  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t147"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2.5:3.5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t132"/>
+        <RadioButton
+            android:id="@+id/volumetric_ratio_concrete_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1:2.5:4  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t118"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/concrete_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/continue_string"
+        android:textSize="26sp"
+        android:enabled="false"/>
+
+</LinearLayout>

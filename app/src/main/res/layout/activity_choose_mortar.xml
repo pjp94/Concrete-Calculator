@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dank.memes.concreteaggregator.ChooseConcreteActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/select_mortar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/select_mortar"
+        android:textSize="26sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/volumetric_ratio_mortar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uses"/>
+
+    <RadioGroup
+        android:id="@+id/radio_volumetric_ratio_mortar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_1"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_2"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_3"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_4"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_5"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_6"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_7"/>
+
+        <RadioButton
+            android:id="@+id/volumetric_ratio_mortar_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mortar_8"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/mortar_continue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/continue_string"
+        android:textSize="26sp"
+        android:enabled="false"/>
+
+</LinearLayout>

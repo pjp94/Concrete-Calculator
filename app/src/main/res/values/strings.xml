@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Concrete Aggregator</string>
+    <string name="main_text">What do you want to calculate?</string>
+    <string name="select_concrete">Choose your concrete type:</string>
+    <string name="select_mortar">Choose your mortar type:</string>
+    <string name="volumetric_ratio">\tVolumetric Ratio\t\t\t\t\t\t\t\t\tResistance at 28 Days (kg/cm2)</string>
+    <string name="ask_water">Which percentage of water are you using (10, 15, or 20 recommended)?</string>
+    <string name="material_amount">Enter amount here</string>
+    <string name="select_material" formatted="false">How much %s are you calculating with a proportion of %s and the specified amount of water?</string>
+    <string name="final_values" formatted="false">For %d m3 of %s with a proportion of %s and %s of water, you will need:</string>
+    <string name="enter_percentage">Enter percentage here</string>
+    <string name="uses">\tVolumetric Ratio\t\t\t\t\t\t\t\t\t\t\t\t\tUses</string>
+    <string name="concrete">Concrete</string>
+    <string name="mortar">Mortar</string>
+    <string name="continue_string">Continue</string>
+    <string name="results">Results:</string>
+    <string name="cement">\t\tCement:</string>
+    <string name="sand">\t\tSand:</string>
+    <string name="gravel">\t\tGravel:</string>
+    <string name="water">\t\tWater:</string>
+    <string name="bags">bags</string>
+    <string name="barrels">barrels</string>
+    <string name="calculate_amounts">Calculate Amounts</string>
+    <string name="mortar_1">1:1\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFinishing</string>
+    <string name="mortar_2">1:2\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFinishing</string>
+    <string name="mortar_3">1:3\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPlaster</string>
+    <string name="mortar_4">1:4\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPlaster</string>
+    <string name="mortar_5">1:5\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPlaster</string>
+    <string name="mortar_6">1:6\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGlue</string>
+    <string name="mortar_7">1:7\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGlue</string>
+    <string name="mortar_8">1:8\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGlue</string>
+</resources>
